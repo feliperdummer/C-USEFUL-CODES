@@ -4,7 +4,11 @@ double pow_of(long int base, int power);
 
 int main()
 {
+    long int base = 2;
+    int power = 3;
+    double result = pow_of(base, power);
 
+    printf(" Result = %.0f\n", result);
 
     return 0;
 }
